@@ -8,8 +8,10 @@ import { getAllClubData } from '../hooks/fetchData'
 const SearchPage = () => {
 	const [searchValue, setSearchValue] = useState('')
 	const [activeFilters, setActiveFilters] = useState([])
-	const [data, setData] = useState(getAllClubData())
 	const [isLoading, setLoading] = useState(true)
+
+	const data = getAllClubData()
+	// const [data, setData] = useState(getAllClubData())
 
 	// useEffect(() => {
 	// 	// setLoading(true)
