@@ -21,25 +21,23 @@ const SearchPage = () => {
 	// }, [])
 
 	return (
-		<>
+		<div className='w-screen h-screen relative top-5'>
 			<div className='m-4'>
 				<Search setSearchValue={setSearchValue} />
 			</div>
 			{/* <Filters activeFilters={activeFilters} setActiveFilters={setActiveFilters} /> */}
-			<div className='flex flex-row border-2 m-4 rounded'>
-				<div className='rounded m-4'>
-					{isLoading && data.length < 1 ? (
-						<div> Loading... </div>
-					) : (
-						<ClubList
-							clubInfo={data}
-							searchValue={searchValue}
-							activeFilters={activeFilters}
-						/>
-					)}
-				</div>
+			<div className='flex flex-row border-2 m-10 rounded'>
+				{isLoading && data.length < 1 ? (
+					<div> Loading... </div>
+				) : (
+					<ClubList
+						clubInfo={data}
+						searchValue={searchValue}
+						activeFilters={activeFilters}
+					/>
+				)}
 			</div>
-		</>
+		</div>
 	)
 }
 

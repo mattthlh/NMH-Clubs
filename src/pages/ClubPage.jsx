@@ -45,8 +45,7 @@ const ClubPage = () => {
 					{contactEmails.map((email, index) => {
 						return (
 							<p className='underline text-sky-300' key={index}>
-								{' '}
-								{email}{' '}
+								{email}
 							</p>
 						)
 					})}

@@ -25,7 +25,7 @@ const ClubList = ({ clubInfo, searchValue, activeFilters }) => {
 	}
 
 	return (
-		<div className='grid grid-cols-2 m-6'>
+		<div className='w-full h-full grid grid-cols-2 m-6'>
 			{clubInfo.map((card, index) => {
 				const title = card.name.toLowerCase()
 				const value = searchValue.toLowerCase()
