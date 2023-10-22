@@ -9,10 +9,9 @@ const ClubList = ({ clubInfo, searchValue, activeFilters }) => {
 			<div
 				className='border border-rose-300
 				rounded bg-sky-50 m-3 p-3 pb-2'>
-				<Link to={'/clubs/' + info.name} state={''}>
+				<Link to={'/clubs/' + info.name} state={info}>
 					<h1 className='font-bold text-lg'> {info.name} </h1>
 					<p className='text-slate-600 text-base mb-2'> {info.description} </p>
-					{/* <divider />*/}
 					{/* <div className="flex flex-row justify-start gap-2">
             {info.filters.map((ele, index) => (
               <p className="rounded-full bg-cyan-300 pl-2 pr-2 text-xs" key={index}>
