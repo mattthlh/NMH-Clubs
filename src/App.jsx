@@ -8,6 +8,7 @@ import Navbar from './components/Navbar.jsx'
 
 const App = () => {
 	return (
+		// Using React Router to navigate around the pages. Plan to feature a page for adding new clubs as well as a not found page
 		<>
 			<Navbar />
 			<Routes>

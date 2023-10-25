@@ -9,6 +9,7 @@ const ClubList = ({ clubInfo, searchValue, activeFilters }) => {
 			<div
 				className='border border-rose-300
 				rounded bg-sky-50 m-3 p-3 pb-2'>
+				{/* Link is a React Router element that navigates to a different url when clicked. So this one is going to clubs/[id]  */}
 				<Link to={'/clubs/' + info.name} state={info}>
 					<h1 className='font-bold text-lg'> {info.name} </h1>
 					<p className='text-slate-600 text-base mb-2'> {info.description} </p>
@@ -30,6 +31,7 @@ const ClubList = ({ clubInfo, searchValue, activeFilters }) => {
 				const title = card.name.toLowerCase()
 				const value = searchValue.toLowerCase()
 
+				// Bit confusing logic, but essentially checks whether the searchValue is contained in the title of a club, then checks the active filters to see whether they match as well (are no active filters, then it displays all)
 				if (title.match(value)) {
 					if (activeFilters === undefined || activeFilters.length == 0) {
 						return <ClubCard info={card} key={index} />

@@ -1,6 +1,7 @@
 const Search = ({ setSearchValue }) => {
 	const handleSubmit = (e) => e.preventDefault()
 
+	// input box that stores the current value of search
 	const handleSearchChange = (e) => {
 		const searchValue = e.target.value
 		setSearchValue(searchValue.trim())
