@@ -5,7 +5,8 @@ const ClubPage = () => {
 	const clubInfo = useLocation().state
 	const title = clubInfo.name
 	const description = clubInfo.description
-	const contactEmails = clubInfo.contactEmails
+	const contactEmails = clubInfo.contactEmails.split(' ')
+	// Stupid fix for now, but turned the contactEmails into an array so it wouldn't fail the .map method later
 
 	const CardContainer = (props) => {
 		return (
