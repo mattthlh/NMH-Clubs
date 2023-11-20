@@ -18,419 +18,419 @@
 		"description": "NMH’s online radio station broadcasts across campus and the world.",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": ["example3@nmhschool.org", "example4@nmhschool.org"]
+		"contactEmails": [["example3@nmhschool.org"], "example4@nmhschool.org"]
 	},
 	{
 		"name": "Coding Club",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Fiber Arts Club",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Photography ",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Game Development Club",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Writers Anon",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Penguin Pals: Elderly Support and Outreach",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "NMH1K Institute for Economics, Finance, and Entrepreneurship",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "3D Printing Club",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Operation Happy Birthday",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "For Medics",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Life Drawing Club",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "French Speakers Association (FSA)",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Latin Club",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Climate Justice Coalition(CJC)",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "NMH Investment Club",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Carry Me Home",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Chess Club",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Disc Golf Club",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Zenmh",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Bridge of Letters",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Box Lacrosse club ",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Biotechnology Club",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Dance Club",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Med Is In",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Pool Club",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Russian Cultural Learning CLub",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Pickleball Club",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Italian Student Association/Club",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Gx Ultimate Frisbee Club",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Health and Wellness Club",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Self-Improvement Club",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Planting Club",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Lamplighter Newspaper Publication",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Innovative Pitching Club",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Sustainable Develop Goals Club",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "ENGin Tutoring Club",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "NMH Cares",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Shy Art Club",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Stand-up comedy club",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "TDA [Taichi Development Association]",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Anime Club",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Sending Sunshine at NMH!",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "STEM Club ",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Model and Games Club",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Community Service club",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Architecture Club",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Jewish Student Alliance",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Muslim Student Association",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Catholic Student Association",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Breakaway",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Community Sit",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "International Student Assoc. (ISA)",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Latinx Student Assoc. (LSA)",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Asian American Pacific Islander Student Assoc. (AAPISA)",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Circle of Sisters (CoS)",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Native Student Assoc. (NSA)",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "The Brothers",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Gender & Sexuality Alliance (GSA)",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	},
 	{
 		"name": "Black Student Union (BSU)",
 		"description": "No description",
 		"isActive": true,
 		"logo": "assets/wnmh-radio.png",
-		"contactEmails": "example3@nmhschool.org"
+		"contactEmails": ["example3@nmhschool.org"]
 	}
 ]

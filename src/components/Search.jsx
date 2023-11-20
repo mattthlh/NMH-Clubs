@@ -11,9 +11,8 @@ const Search = ({ setSearchValue }) => {
 		<>
 			<form className='flex justify-center' onSubmit={handleSubmit}>
 				<input
-					className='flex border-2 rounded-md m-2 w-80
-           border-gray-400 placeholder-shown:text-center pl-2'
-					placeholder='Search Clubs Here!'
+					className='flex border-b border-blue-950 m-2 w-72 pl-2 text-lg focus:outline-4 focus:outline-nmhNavy'
+					placeholder='Type to Search...'
 					onChange={handleSearchChange}
 				/>
 			</form>

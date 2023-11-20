@@ -3,9 +3,16 @@ export default {
 	content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
 	theme: {
 		fontFamily: {
-			sans: ['ui-sans-serif', 'system-ui', 'Roboto'],
+			roboto: ['Roboto'],
+			playfair: ['Playfair', 'sans-serif'],
 		},
-		extend: {},
+		extend: {
+			colors: {
+				NMHBlue: '#009CDE',
+				nmhNavy: '#002855',
+				NMHRed: '#7e2d40',
+			},
+		},
 	},
 	plugins: [],
 }

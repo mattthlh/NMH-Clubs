@@ -12,15 +12,16 @@ const SearchPage = () => {
 	const [isLoading, setLoading] = useState(true)
 
 	// Currently the data is retrieved from simple function, but when doing api calls later, will need a useEffect below
-	const data = getAllClubData()
-	// const [data, setData] = useState(getAllClubData())
+	// const data = getAllClubData()
+	const [data, setData] = useState(getAllClubData())
 
-	// useEffect(() => {
-	// 	// setLoading(true)
-	// 	const clubData = getAllClubData()
-	// 	setData((data) => clubData)
-	// 	// setLoading(false)
-	// }, [])
+	useEffect(() => {
+		setLoading(true)
+
+		const clubData = getAllClubData()
+		setData((data) => clubData)
+		setLoading(false)
+	}, [])
 
 	return (
 		// This essentially divides it into 3 sections: Search bar, Filters drop-down, and the display of clubs
@@ -31,7 +32,7 @@ const SearchPage = () => {
 			{/* <Filters activeFilters={activeFilters} setActiveFilters={setActiveFilters} /> */}
 
 			{/* The function below waits for data to be retrieved before displaying the list of club cards. Plan to implement a limit to amount of cards displayed initially (~10 cards first, then can load more) */}
-			<div className='flex flex-row border-2 m-10 rounded'>
+			<div className='flex flex-row md:m-10 rounded'>
 				{isLoading && data.length < 1 ? (
 					<div> Loading... </div>
 				) : (

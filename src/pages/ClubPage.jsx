@@ -3,10 +3,12 @@ import { useLocation } from 'react-router-dom'
 
 const ClubPage = () => {
 	const clubInfo = useLocation().state
+
 	const title = clubInfo.name
 	const description = clubInfo.description
-	const contactEmails = clubInfo.contactEmails.split(' ')
-	// Stupid fix for now, but turned the contactEmails into an array so it wouldn't fail the .map method later
+	const contactEmails = clubInfo.contactEmails
+
+	// Another qol feature is to scroll to the top when you click into a page
 
 	const CardContainer = (props) => {
 		return (
@@ -33,7 +35,7 @@ const ClubPage = () => {
 
 	return (
 		<div className='h-screen w-screen relative'>
-			<div className='flex flex-row gap-8 m-4 mx-10'>
+			<div className='flex flex-col md:flex-row gap-8 m-4 mx-10'>
 				<div className='flex-grow'>
 					<CardContainer>
 						<h2 className='text-4xl font-bold mb-4'> {title}</h2>
@@ -45,9 +47,9 @@ const ClubPage = () => {
 					<h3 className='text-2xl font-bold mb-2'> Contacts </h3>
 					{contactEmails.map((email, index) => {
 						return (
-							<p className='underline text-sky-300' key={index}>
+							<a href={`mailto:${email}`} className='underline text-sky-300' key={index}>
 								{email}
-							</p>
+							</a>
 						)
 					})}
 				</CardContainer>

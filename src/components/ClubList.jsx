@@ -4,11 +4,10 @@ import { Link } from 'react-router-dom'
 const ClubList = ({ clubInfo, searchValue, activeFilters }) => {
 	// Individual card component
 	const ClubCard = ({ info }) => {
-		console.log(info)
 		return (
 			<div
-				className='border border-rose-300
-				rounded bg-sky-50 m-3 p-3 pb-2'>
+				className='border-t-2 border-NMHBlue
+				rounded m-3 p-3 pb-2 shadow-lg hover:scale-105'>
 				{/* Link is a React Router element that navigates to a different url when clicked. So this one is going to clubs/[id]  */}
 				<Link to={'/clubs/' + info.name} state={info}>
 					<h1 className='font-bold text-lg'> {info.name} </h1>
@@ -26,7 +25,7 @@ const ClubList = ({ clubInfo, searchValue, activeFilters }) => {
 	}
 
 	return (
-		<div className='w-full h-full grid grid-cols-2 m-6'>
+		<div className='max-w-screen-lg mx-auto w-full h-full grid md:grid-cols-2 m-6'>
 			{clubInfo.map((card, index) => {
 				const title = card.name.toLowerCase()
 				const value = searchValue.toLowerCase()
