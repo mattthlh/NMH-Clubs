@@ -7,7 +7,7 @@ const ClubList = ({ clubInfo, searchValue, activeFilters }) => {
 		return (
 			<div
 				className='border-t-2 border-NMHBlue
-				rounded m-3 p-3 pb-2 shadow-lg hover:scale-105'>
+				rounded m-3 p-3 pb-2 shadow-lg hover:scale-105 hover:rotate-1'>
 				{/* Link is a React Router element that navigates to a different url when clicked. So this one is going to clubs/[id]  */}
 				<Link to={'/clubs/' + info.name} state={info}>
 					<h1 className='font-bold text-lg'> {info.name} </h1>
