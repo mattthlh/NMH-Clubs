@@ -25,7 +25,18 @@ const SearchPage = () => {
 
 	return (
 		// This essentially divides it into 3 sections: Search bar, Filters drop-down, and the display of clubs
-		<div className='w-screen h-screen relative top-5'>
+		<div className='w-screen h-screen relative'>
+			<div className='flex flex-col bg-NMHBlue w-screen h-12 m-0 justify-center items-center'>
+				<h1 className='text-white text-2xl'>
+					This website is a testing website and will not include school club
+					information. Check the following link instead on NMH-Academics Wifi
+				</h1>
+				<a
+					href='https://appstest.nmhschool.org/clubs/'
+					className='text-blue-900'>
+					Official Club Website
+				</a>
+			</div>
 			<div className='m-4'>
 				<Search setSearchValue={setSearchValue} />
 			</div>
