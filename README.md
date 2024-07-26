@@ -1,8 +1,4 @@
-# React + Vite
+# Student Club Website for Highschool
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Problem: There's currently no system to display student clubs.
+Solution: So, I plan to create a website that displays the list of clubs and their description to increase student-club interation!
